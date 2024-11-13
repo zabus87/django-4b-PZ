@@ -1,0 +1,38 @@
+body {
+    background: white url("images/background.jpg") no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: aqua;
+}
+
+h1, h2, li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: red;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
